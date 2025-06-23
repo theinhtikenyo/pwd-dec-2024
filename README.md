@@ -5,8 +5,8 @@
 * `composer install`
 * `npm install`
 * Change `.env.example` to `.env`
-* `composer run build`
-* Make sure to create database name called "blog" and then run `php artisan migrate:fresh --seed`
+* Run `composer run dev` or `composer run build`
+* Create database name called "blog" at XAMPP and then run `php artisan migrate:fresh --seed`
 * `composer run dev` run the project
 
 ## Client App
